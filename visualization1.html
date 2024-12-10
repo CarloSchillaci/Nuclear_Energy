@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Nuclear Energy Capacity - Visualization Protocol</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            padding-top: 20px; /* Adds space at the top of the body */
+        }
+
+        header {
+            display: flex; /* Use flexbox for layout */
+            justify-content: space-between; /* Space between items */
+            align-items: center; /* Center items vertically */
+            margin-bottom: 1px; /* Adds space below the header */
+            padding: 0 40px; /* Adds horizontal padding */
+        }
+
+        h1 {
+            margin: 0; /* Remove default margin from h1 */
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #64ffda; /* Light teal background */
+            color: #000; /* Black text */
+            text-decoration: none; /* Remove underline */
+            border-radius: 5px; /* Rounded corners */
+            font-weight: bold; /* Bold text */
+            transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+        }
+
+        .back-button:hover {
+            background-color: #50e0c0; /* Darker teal on hover */
+            transform: translateY(-2px); /* Slight lift effect */
+        }
+
+        section {
+            margin: 20px 0; /* Adds vertical space between sections */
+            padding: 15px; /* Adds padding inside each section */
+            border-radius: 5px; /* Optional: Rounded corners for sections */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 1); /* Optional: Subtle shadow for depth */
+        }
+
+        .data-sources-list {
+            list-style-type: disc; /* Use disc bullets */
+            padding-left: 20px; /* Add padding to the left for indentation */
+            margin: 10px 0; /* Add vertical margin for spacing */
+        }
+
+        .data-sources-list li {
+            margin-bottom: 5px; /* Add space between list items */
+            font-size: 16px; /* Adjust font size for better readability */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Global Nuclear Energy Capacity</h1>
+        <nav>
+            <a href="index.html" class="back-button">Back to Main Page</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>
+                This visualization provides an overview of the global nuclear energy capacity by country. It highlights the total capacity in megawatts (MW) and allows for a comparative analysis of nuclear energy production across different nations.
+            </p>
+        </section>
+
+        <section>
+            <h2>Methodology</h2>
+            <p>
+                The data for this visualization was sourced from the Global Nuclear Energy Dataset. The capacities are represented as a choropleth map, where countries are color-coded based on their nuclear energy capacity. The data is plotted using the Plotly.js library.
+            </p>
+        </section>
+
+        <section>
+            <h2>Data Sources</h2>
+            <ul class="data-sources-list">
+                <li>International Atomic Energy Agency (IAEA)</li>
+                <li>World Nuclear Association</li>
+                <li>National Energy Agencies</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Insights</h2>
+            <p>
+                The visualization reveals significant disparities in nuclear energy capacity among countries. For instance, countries like the United States and France have substantial nuclear capacities, while many others have minimal or no nuclear energy production. This data is crucial for understanding global energy trends and the role of nuclear energy in achieving sustainable energy goals.
+            </p>
+        </section>
+
+        <section>
+            <h2>Conclusion</h2>
+            <p>
+                Understanding global nuclear energy capacity is essential for policymakers and researchers. This visualization serves as a tool for analyzing the current state of nuclear energy and its potential for future development in the context of global energy needs and environmental sustainability.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Carnevale Cattoni Schillaci</p>
+    </footer>
+</body>
+</html>
