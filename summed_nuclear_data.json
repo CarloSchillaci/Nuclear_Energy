@@ -1,134 +1,167 @@
 [
   {
     "Country\/Area":"Argentina",
-    "Capacity (MW)":1763.0
+    "Capacity (MW)":1763.0,
+    "Active Reactors":3
   },
   {
     "Country\/Area":"Armenia",
-    "Capacity (MW)":448.0
+    "Capacity (MW)":448.0,
+    "Active Reactors":1
   },
   {
     "Country\/Area":"Belarus",
-    "Capacity (MW)":2.388
+    "Capacity (MW)":2.388,
+    "Active Reactors":2
   },
   {
     "Country\/Area":"Belgium",
-    "Capacity (MW)":911.188
+    "Capacity (MW)":911.188,
+    "Active Reactors":5
   },
   {
     "Country\/Area":"Brazil",
-    "Capacity (MW)":641.35
+    "Capacity (MW)":641.35,
+    "Active Reactors":2
   },
   {
     "Country\/Area":"Bulgaria",
-    "Capacity (MW)":2.08
+    "Capacity (MW)":2.08,
+    "Active Reactors":2
   },
   {
     "Country\/Area":"Canada",
-    "Capacity (MW)":14629.0
+    "Capacity (MW)":14629.0,
+    "Active Reactors":19
   },
   {
     "Country\/Area":"China",
-    "Capacity (MW)":9948.234
+    "Capacity (MW)":9948.234,
+    "Active Reactors":58
   },
   {
     "Country\/Area":"Czech Republic",
-    "Capacity (MW)":2002.164
+    "Capacity (MW)":2002.164,
+    "Active Reactors":6
   },
   {
     "Country\/Area":"Finland",
-    "Capacity (MW)":2903.72
+    "Capacity (MW)":2903.72,
+    "Active Reactors":5
   },
   {
     "Country\/Area":"France",
-    "Capacity (MW)":30387.686
+    "Capacity (MW)":30387.686,
+    "Active Reactors":56
   },
   {
     "Country\/Area":"Hungary",
-    "Capacity (MW)":2027.0
+    "Capacity (MW)":2027.0,
+    "Active Reactors":4
   },
   {
     "Country\/Area":"India",
-    "Capacity (MW)":5542.0
+    "Capacity (MW)":5542.0,
+    "Active Reactors":20
   },
   {
     "Country\/Area":"Iran",
-    "Capacity (MW)":1.0
+    "Capacity (MW)":1.0,
+    "Active Reactors":1
   },
   {
     "Country\/Area":"Japan",
-    "Capacity (MW)":6892.72
+    "Capacity (MW)":6892.72,
+    "Active Reactors":12
   },
   {
     "Country\/Area":"Mexico",
-    "Capacity (MW)":1608.0
+    "Capacity (MW)":1608.0,
+    "Active Reactors":2
   },
   {
     "Country\/Area":"Netherlands",
-    "Capacity (MW)":515.0
+    "Capacity (MW)":515.0,
+    "Active Reactors":1
   },
   {
     "Country\/Area":"North Korea",
-    "Capacity (MW)":5.0
+    "Capacity (MW)":5.0,
+    "Active Reactors":1
   },
   {
     "Country\/Area":"Pakistan",
-    "Capacity (MW)":1332.2
+    "Capacity (MW)":1332.2,
+    "Active Reactors":6
   },
   {
     "Country\/Area":"Romania",
-    "Capacity (MW)":1411.0
+    "Capacity (MW)":1411.0,
+    "Active Reactors":2
   },
   {
     "Country\/Area":"Russia",
-    "Capacity (MW)":3792.808
+    "Capacity (MW)":3792.808,
+    "Active Reactors":36
   },
   {
     "Country\/Area":"Slovakia",
-    "Capacity (MW)":2471.0
+    "Capacity (MW)":2471.0,
+    "Active Reactors":5
   },
   {
     "Country\/Area":"Slovenia",
-    "Capacity (MW)":727.0
+    "Capacity (MW)":727.0,
+    "Active Reactors":1
   },
   {
     "Country\/Area":"South Africa",
-    "Capacity (MW)":1940.0
+    "Capacity (MW)":1940.0,
+    "Active Reactors":2
   },
   {
     "Country\/Area":"South Korea",
-    "Capacity (MW)":2517.578
+    "Capacity (MW)":2517.578,
+    "Active Reactors":26
   },
   {
     "Country\/Area":"Spain",
-    "Capacity (MW)":7.408
+    "Capacity (MW)":7.408,
+    "Active Reactors":7
   },
   {
     "Country\/Area":"Sweden",
-    "Capacity (MW)":7.184
+    "Capacity (MW)":7.184,
+    "Active Reactors":6
   },
   {
     "Country\/Area":"Switzerland",
-    "Capacity (MW)":762.335
+    "Capacity (MW)":762.335,
+    "Active Reactors":4
   },
   {
     "Country\/Area":"Taiwan",
-    "Capacity (MW)":1902.0
+    "Capacity (MW)":1902.0,
+    "Active Reactors":2
   },
   {
     "Country\/Area":"Ukraine",
-    "Capacity (MW)":848.0
+    "Capacity (MW)":848.0,
+    "Active Reactors":15
   },
   {
     "Country\/Area":"United Arab Emirates",
-    "Capacity (MW)":5.668
+    "Capacity (MW)":5.668,
+    "Active Reactors":4
   },
   {
     "Country\/Area":"United Kingdom",
-    "Capacity (MW)":5285.25
+    "Capacity (MW)":5285.25,
+    "Active Reactors":9
   },
   {
     "Country\/Area":"United States",
-    "Capacity (MW)":30823.723
+    "Capacity (MW)":30823.723,
+    "Active Reactors":94
   }
 ]

@@ -61,8 +61,9 @@ document.addEventListener('DOMContentLoaded', function() {
             // Extract data for plotting
             const countryNames = data.map(item => item['Country/Area']);
             const capacities = data.map(item => item['Capacity (MW)']);
+            const activeReactors = data.map(item => item['Active Reactors']); // New line to extract active reactors
             const hoverText = data.map(item =>
-                `${item['Country/Area']}<br>Capacity: ${item['Capacity (MW)'].toLocaleString()} MW`
+                `Capacity: ${item['Capacity (MW)'].toLocaleString()} MW<br>Active Reactors: ${item['Active Reactors'].toLocaleString()}` // Updated hover text
             );
 
             // Define the Plotly trace
@@ -70,8 +71,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 type: 'choropleth',
                 locations: countryNames,
                 locationmode: 'country names',
-                z: capacities,
                 text: hoverText,
+                z: capacities,
                 colorscale: [
                     [0, 'rgb(255, 255, 204)'],
                     [0.25, 'rgb(255, 237, 160)'],
