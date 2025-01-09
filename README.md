@@ -61,7 +61,7 @@ The primary deliverable of this project is a set of visualizations designed to u
 
 ### 1. Global Nuclear Energy Capacity  
 
-![Nuclear Energy Visualization](images/image1.png)
+![Nuclear Energy Visualization](/assets/images/image1.png)
 
 ### 2. Annual Nuclear Electricity Generation (Race Chart, 2000–2023)  
 This animated bar chart race dynamically ranks countries based on their yearly nuclear electricity production, showcasing shifts in leadership and global trends.  
