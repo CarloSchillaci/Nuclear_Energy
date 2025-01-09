@@ -70,7 +70,7 @@ This animated bar chart race dynamically ranks countries based on their yearly n
 - France held the second position until 2020, when China overtook it.  
 - Europe dominated the top 10 throughout the 24 years, reflecting reliance on nuclear energy.  
 
-![Nuclear Energy Visualization](images/image2.png)
+![Nuclear Energy Visualization](/assets/images/image2.png)
 
 ---
 
@@ -79,17 +79,17 @@ This animated bar chart race dynamically ranks countries based on their yearly n
 #### Isotopes Concentration Post-Chernobyl  
 The alluvial plot displays the total concentration of three radioactive isotopes (I-131, Cs-134, and Cs-137) across European countries for 60 days following the Chernobyl disaster.  
 
-![Nuclear Energy Visualization](images/image5.png)
+![Nuclear Energy Visualization](/assets/images/image5.png)
 
 #### Isotopes Explanation  
 The graph illustrates the decay curves of three radioactive isotopes—Iodine-131 (I-131), Caesium-134 (Cs-134), and Caesium-137 (Cs-137)—over a timeline of 50,000 days.  
 
-![Nuclear Energy Visualization](images/image4.png)
+![Nuclear Energy Visualization](/assets/images/image4.png)
 
 #### Timeline of Nuclear Incidents  
 A line chart reveals a clear timeline of nuclear incidents (1945–2015). The 1986 Chernobyl disaster and the 2011 Fukushima incident stand out as key events.  
 
-![Nuclear Energy Visualization](images/image6.png)
+![Nuclear Energy Visualization](/assets/images/image6.png)
 
 ---
 
@@ -99,12 +99,12 @@ A line chart reveals a clear timeline of nuclear incidents (1945–2015). The 19
 Nuclear waste is the byproduct of nuclear power generation, medical treatments, and other applications of nuclear technology. It varies significantly in its volume, contamination levels, and the intensity of its radioactivity. While low-level waste dominates in volume (90%), it contributes only a negligible amount of radioactivity (1%), highlighting its minimal hazard. On the other hand, high-level waste, though just 3% of the total volume, carries a staggering 95% of the radioactivity, underscoring the need for robust containment and long-term storage solutions. Intermediate-level waste, at 7% of the volume and 4% of radioactivity, bridges the gap between the two extremes, reflecting moderate contamination levels requiring careful handling.
 Nuclear waste comes from activities like generating nuclear power, medical treatments, and other uses of nuclear technology. It’s not all the same—some waste takes up a lot of space but isn’t very dangerous, while other types are small in volume but extremely radioactive. Most of the waste, about 90%, is low-level, meaning it’s lightly contaminated and not too risky. On the flip side, high-level waste makes up only 3% of the total but holds a massive 95% of the radioactivity, making it the toughest to manage. In the middle, you’ve got intermediate-level waste, which is more contaminated than low-level but not as intense as high-level, accounting for 7% of the volume and 4% of the radioactivity
 
-![Nuclear Energy Visualization](images/image7.png)
+![Nuclear Energy Visualization](/assets/images/image7.png)
 
 #### Coal vs. Nuclear Waste  
 Nuclear waste is scary. But the fear of it reveals how bad we are at understanding risk. The largest amounts of radioactive elements like uranium and radon are actually released by coal, not nuclear energy. Burning millions of tons of coal each year leaves ashes as a waste product, which includes about 36,000 tons of radioactive materials globally. This material—comprised of uranium and thorium—is less radioactive than high-level nuclear waste, but there’s far more of it, and it is handled with far less care.
 
-![Nuclear Energy Visualization](images/image8.png)
+![Nuclear Energy Visualization](/assets/images/image8.png)
 
 The average uranium and thorium content per kilogram of coal burnt in power plants is 5.1 milligrams. When multiplied by the approximately 7 billion tons of coal burned annually, this adds up to a total uranium and thorium content of 35,700 tons, rounded to 36,000 tons. (USGS; IEA) ([link1](https://www.iea.org/reports/coal-mid-year-update-july-2024/demand) ,
 [link2](https://pubs.usgs.gov/fs/1997/fs163-97/FS-163-97.html?))
