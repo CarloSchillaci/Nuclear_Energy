@@ -75,7 +75,7 @@ This animated bar chart race dynamically ranks countries based on yearly nuclear
 ### 3. Chernobyl and Nuclear Incidents  
 
 #### Isotopes Concentration Post-Chernobyl  
-The stacked bar plot displays the concentration of three radioactive isotopes (I-131, Cs-134, and Cs-137) across European countries for 60 days following the Chernobyl disaster.  
+The alluvial plot displays the concentration of three radioactive isotopes (I-131, Cs-134, and Cs-137) across European countries for 60 days following the Chernobyl disaster.  
 
 #### Half-Life of Isotopes  
 A decay curve illustrates the half-life of Iodine-131 (8 days), Caesium-134 (2 years), and Caesium-137 (30 years), showing their environmental impact.  
