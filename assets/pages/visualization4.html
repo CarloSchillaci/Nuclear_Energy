@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Nuclear Energy Capacity - Visualization Protocol</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            padding-top: 20px; /* Adds space at the top of the body */
+        }
+
+        header {
+            display: flex; /* Use flexbox for layout */
+            justify-content: space-between; /* Space between items */
+            align-items: center; /* Center items vertically */
+            margin-bottom: 1px; /* Adds space below the header */
+            padding: 0 40px; /* Adds horizontal padding */
+        }
+
+        h1 {
+            margin: 0; /* Remove default margin from h1 */
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #64ffda; /* Light teal background */
+            color: #000; /* Black text */
+            text-decoration: none; /* Remove underline */
+            border-radius: 5px; /* Rounded corners */
+            font-weight: bold; /* Bold text */
+            transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+        }
+
+        .back-button:hover {
+            background-color: #50e0c0; /* Darker teal on hover */
+            transform: translateY(-2px); /* Slight lift effect */
+        }
+
+        section {
+            margin: 20px 0; /* Adds vertical space between sections */
+            padding: 15px; /* Adds padding inside each section */
+        }
+
+        .data-sources-list {
+            list-style-type: disc; /* Use disc bullets */
+            padding-left: 20px; /* Add padding to the left for indentation */
+            margin: 10px 0; /* Add vertical margin for spacing */
+        }
+
+        .data-sources-list li {
+            margin-bottom: 5px; /* Add space between list items */
+            font-size: 16px; /* Adjust font size for better readability */
+        }
+
+        .dataset-link {
+            color: #64ffda;
+            text-decoration: none;
+            position: relative;
+            padding-right: 20px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .dataset-link:after {
+            content: '↗';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 14px;
+            transition: transform 0.3s ease;
+        }
+
+        .dataset-link:hover {
+            color: #50e0c0;
+        }
+
+        .dataset-link:hover:after {
+            transform: translate(2px, -50%);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nuclear Waste</h1>
+        <nav>
+            <a href="index.html" class="back-button">Back to Main Page</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Timestamp</h2>
+            <p>
+                1954 - 2016
+            </p>
+        </section>
+
+        <section>
+            <h2>Data Sources</h2>
+            <p>
+            IAEA Report: Status and Trends in Spent Fuel and Radioactive Waste Management – The main report providing data and insights on global waste management efforts.
+            European Commission, OECD Nuclear Energy Agency (NEA), World Nuclear Association
+            </p>
+        </section>  
+
+        <section>
+            <h2>Dataset Link</h2>
+            <p>
+                <a href="https://www.iaea.org/newscenter/news/new-iaea-report-presents-global-overview-of-radioactive-waste-and-spent-fuel-management" class="dataset-link">Go To Webpage</a>
+            </p>
+        </section>
+
+        
+        <section>
+            <h2>Insights</h2>
+            <p>
+                Significant progress has been made globally in managing radioactive waste, with over 80% of solid waste now disposed of and advanced technologies like deep geological repositories (DGRs) being developed. Most waste is low-level, while high-level waste represents less than 1%, and new tools like SRIS aid data sharing and reporting.
+            </p>
+        </section>
+
+        <section>
+            <h2>Conclusion</h2>
+            <p>
+                International collaboration, sustainable practices, and public engagement are essential for effective waste management. While advanced technologies show promise, challenges like prolonged storage and uneven progress across countries highlight the need for continued innovation and cooperation.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Carnevale Cattoni Schillaci</p>
+    </footer>
+</body>
+</html>
