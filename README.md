@@ -106,7 +106,7 @@ Nuclear waste is scary. But the fear of it reveals how bad we are at understandi
 
 ![Nuclear Energy Visualization](images/image8.png)
 
-The average uranium and thorium content per kilogram of coal burnt in power plants is 5.1 milligrams. When multiplied by the approximately 7 billion tons of coal burned annually, this adds up to a total uranium and thorium content of 35,700 tons, rounded to 36,000 tons. (USGS; IEA) ([link1](ttps://www.iea.org/reports/coal-mid-year-update-july-2024/demand) ,
+The average uranium and thorium content per kilogram of coal burnt in power plants is 5.1 milligrams. When multiplied by the approximately 7 billion tons of coal burned annually, this adds up to a total uranium and thorium content of 35,700 tons, rounded to 36,000 tons. (USGS; IEA) ([link1](https://www.iea.org/reports/coal-mid-year-update-july-2024/demand) ,
 [link2](https://pubs.usgs.gov/fs/1997/fs163-97/FS-163-97.html?))
 
 In contrast, nuclear power plants produce approximately 6,290 tons of high-level radioactive waste annually in the form of spent nuclear fuel. Nuclear waste is highly radioactive but tightly contained in pools, dry casks, or other secure facilities, minimizing its environmental impact. (IAEA) ([link1](https://www.iea.org/reports/coal-mid-year-update-july-2024/demand?) ,
