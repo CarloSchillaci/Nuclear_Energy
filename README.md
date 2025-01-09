@@ -59,7 +59,7 @@ yearly_data = df.groupby(['Year', 'Country'])['Electricity_Generated_TWh'].sum()
 
 ### 1. Global Nuclear Energy Capacity  
 
-![Nuclear Energy Visualization](images/nuclear-energy.png)
+![Nuclear Energy Visualization](images/image1.png)
 
 ### 2. Annual Nuclear Electricity Generation (Race Chart, 2000–2023)  
 This animated bar chart race dynamically ranks countries based on yearly nuclear electricity production, showcasing shifts in leadership and global trends.  
@@ -68,7 +68,7 @@ This animated bar chart race dynamically ranks countries based on yearly nuclear
 - France held the second position until 2020, when China overtook it.  
 - Europe dominated the top 10 throughout the 24 years, reflecting reliance on nuclear energy.  
 
-![Nuclear Energy Visualization](images/nuclear-energy.png)
+![Nuclear Energy Visualization](images/image2.png)
 
 ---
 
@@ -83,7 +83,7 @@ A decay curve illustrates the half-life of Iodine-131 (8 days), Caesium-134 (2 y
 #### Timeline of Nuclear Incidents  
 A line chart reveals a clear timeline of nuclear incidents (1945–2015). The 1986 Chernobyl disaster and the 2011 Fukushima incident stand out as key events.  
 
-![Nuclear Energy Visualization](images/nuclear-energy.png)
+![Nuclear Energy Visualization](images/image3.png)
 
 ---
 
@@ -97,7 +97,7 @@ A line chart reveals a clear timeline of nuclear incidents (1945–2015). The 19
 #### Coal vs. Nuclear Waste  
 Coal plants release far more radioactive materials into the environment compared to nuclear power plants, despite the lower public perception of coal’s risks.
 
-![Nuclear Energy Visualization](images/nuclear-energy.png)
+![Nuclear Energy Visualization](images/image4.png)
 
 ---
 
