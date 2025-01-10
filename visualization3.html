@@ -102,11 +102,17 @@
         
         <section>
             <h2>Data Sources</h2>
-            The data used in this analysis was sourced from two scholarly articles:<br>
-	    1.	“Reassessing the Safety of Nuclear Power” by Spencer Wheatley, Benjamin Sovacool, and Didier Sornette, published in the May issue of the journal Energy Research and Social Science.<br>
-	    2.	“Of Disasters and Dragon Kings: A Statistical Analysis of Nuclear Power Incidents and Accidents” by the same authors, published in the May issue of the journal Risk Analysis.<br>
+            The dataset for the isotope concentration was derived from Kaggle and the JRC Directorate for Nuclear Safety and Security.
+		
+	    For the decayment period of those same isotopes, another dataset was created directly with Python in a Jupyter Notebook.
+	    The half-life estimates of the isotopes was extracted from articles belonging to objective scientific sources:
+		1. World Health Organization (WHO)
+		2. United Nations Scientific Committee on the Effects of Atomic Radiation (UNSCEAR)
+		3. Alaska Department of Environmental Conservation (DEC)
 
-        These articles provide detailed statistical and qualitative insights into the safety, risks, and implications of nuclear power incidents and accidents.
+	    The last dataset, composed of the 216 incidents and accidents occurring at nuclear power plants globally from the 1945 to 2015, was compiled and analysed within the papers:
+		1. ‘Reassessing the safety of nuclear power’ by Spencer Wheatley, Benjamin Sovacool and Didier Sornette published in the May issue of the journal Energy Research and Social Science.
+		2. ‘Of Disasters and Dragon Kings: A Statistical Analysis of Nuclear Power Incidents and Accidents’ by Spencer Wheatley, Benjamin Sovacool and Didier Sornette, published in the May issue of the journal Risk Analysis.
         </section>
 
         <section>
@@ -119,6 +125,66 @@
             </p>
         </section>
 
+	<section>
+            <h2>Pre-Processing Steps (1)</h2>
+	        1. Renamed columns to more descriptive names for clarity (e.g., country_code to country).
+		2. Dropped unnecessary columns like end_time and duration that were irrelevant for the analysis.
+		3. Replaced country abbreviations (e.g., AU, BE) with full country names for better readability.
+		4. Removed invalid characters (`<`, `L`, `N`) from isotope concentration columns. Converted these columns to numeric format for accurate calculations.
+		5. Fixed swapped latitude and longitude values by renaming columns and adjusting misplaced data.
+		6. Grouped data by `locality`, `date`, and `country` to calculate mean values for isotope concentrations.
+		7. Applied linear interpolation to fill missing values in isotope concentration columns.
+		8. Summed isotope concentrations at the country level for a consolidated overview
+        </section>
+
+	<section>
+            <h2>Visualization (1) </h2>
+	        **Tool Used:** Flourish
+		**Chart Type:** Alluvial Chart
+		**Description:** The visualization shows the distribution of isotope concentrations across various countries in Europe. Each flow represents the contribution of `iodine131`, `caesium134`, and `caesium137` to the total concentration for a country.
+		**Key Insights:**
+ 			- Highlighted the geographic spread and relative contribution of isotopes to contamination levels.
+  			- Showcased how certain countries experienced significantly higher concentrations.
+        </section>
+
+	<section>
+            <h2>Pre-Processing Steps (2)</h2>
+	        The preprocessing process involved calculating the decay curves of three radioactive isotopes: Iodine-131, Caesium-134, and Caesium-137.
+		The decay was modeled over a time span of 50,000 days based on their respective half-lives.
+		For each isotope, the fraction remaining over time was calculated using the radioactive decay formula
+		A resulting dataset was prepared for visualization, Reshaped the dataset to have isotopes as rows and time points as columns
+        </section>
+
+	<section>
+            <h2>Visualization (2)</h2>
+	        **Tool Used:** Flourish
+		**Chart Type:** Line Chart Race
+		**Description:** The visualization dynamically showcases the decay of the three isotopes over time
+		**Key Insights:**
+			- Nuclear disasters are not just short-term crises. They unfold in wave
+			- Caesium isotopes, especially Caesium-137, remain a concern today, making parts of the region uninhabitable decades later.
+			- This knowledge helps shape policies for nuclear safety, disaster response, and long-term environmental recovery efforts.
+        </section>
+
+
+	<section>
+            <h2>Pre-Processing Steps (3)</h2>
+		1. Dropped unnecessary columns like end_time and duration that were irrelevant for the analysis.
+		2. Removed missing values
+        </section>
+
+	<section>
+            <h2>Visualization (3)</h2>
+	        - **Tool Used:** Flourish
+		- **Chart Type:** Line Chart 
+		- **Description:** The plot showcases a clear timeline of nuclear incidents from 1945 to 2015.
+		- **Key Insights:**
+			- The absence of significant activity before the 1980s underscores the relatively low occurrence of nuclear incidents during the early days of nuclear energy development.
+			- The post-Chernobyl period is marked by heightened global awareness and more stringent safety regulations, as reflected by the lower frequency of severe incidents in subsequent years, even though there is far more activity than the early developments
+			- Fukushima Daiichi nuclear disaster, triggered by a massive earthquake and tsunami in Japan, could have been far worse if not for the awareness and safety measures developed in response to Chernobyl.
+        </section>
+
+
 
         <section>
             <h2>Insights</h2>
@@ -130,7 +196,7 @@
         <section>
             <h2>Conclusion</h2>
             <p>
-                While nuclear waste is concentrated and often feared, coal waste is diffuse and poorly regulated, leading to greater long-term environmental and health risks.
+                ...
             </p>
         </section>
     </main>
